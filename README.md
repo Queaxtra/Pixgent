@@ -9,7 +9,7 @@ It is a simple, reliable and fast file upload service.
 
 
 ```bash
-  npm Install
+  npm install
   node . or node index.js
 ```
     
