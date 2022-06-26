@@ -1,0 +1,18 @@
+<%- include('components/Navbar') %>
+
+    <div class="absolute ml-auto mr-auto left-0 right-0">
+        <h1 class="text-center text-4xl mt-[120px]">Pixgent</h1>
+        <p class="text-center opacity-80 mt-5 italic">It is a simple, reliable and fast file upload service.</p>
+        <center>
+            <div
+                class="w-80 h-36 border-dashed bg-white opacity-60 border-2 border-gray-500 absolute ml-auto mr-auto left-0 right-0 mt-[50px]">
+                <h2 class="text-black font-semibold text-lg mt-3">Upload File!</h2>
+                <form class="mt-5" enctype="multipart/form-data" method="post">
+                    <input class="upload ml-5" type="file" name="pixgent_database" />
+                    <button type="submit" name="submit" class="focus:outline-none opacity-100 text-white bg-[#7000FF] focus:ring-4 focus:ring-purple-300 font-medium rounded-md text-sm px-5 py-2.5 mb-2 mt-[60px] shadow-md">Upload!</button>
+                </form>
+            </div>
+        </center>
+    </div>
+    
+<%- include('components/Footer') %>
